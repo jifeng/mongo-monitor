@@ -1,0 +1,30 @@
+{
+  "name": "mongo-monitor",
+  "description": "mongodb monitor",
+  "version": "0.1.5",
+  "keywords": [
+    "mongodb",
+    "monitor"
+  ],
+  "author": {
+    "name": "jifeng.zjd@taobao.com",
+    "email": "jifeng.zjd@taobao.com",
+    "url": "http://www.cnblogs.com/lengyuhong/"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "urllib": "=0.2.4"
+  },
+  "devDependencies": {
+    "should": ">=0.4.2",
+    "mocha": ">=1.0.0",
+    "jscoverage": "0.1.0"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.6.7"
+  },
+  "license": "MIT"
+}
